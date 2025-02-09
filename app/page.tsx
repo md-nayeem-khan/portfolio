@@ -9,6 +9,7 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
+import ExperienceTimeline from "@/components/ExperienceTimeline";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         <RecentProjects />
         <Clients />
         <Experience />
+        <ExperienceTimeline />
         <Footer />
       </div>
     </main>
